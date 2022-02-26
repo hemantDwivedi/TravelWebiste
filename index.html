@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="https://ucarecdn.com/79d014a5-2597-4bee-bfdd-27d73b366597/" sizes="16x16">
+    <script src="https://kit.fontawesome.com/6f9f939143.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Travelogged Kedarnath</title>
+  </head>
+  <body>
+    <!-- <div class="container-fluid d-flex justify-content-center" style="background-color: rgb(255 59 0 / 75%);">
+      <div class="d-flex p-1 m-0">
+        <p class="text-light font-styling m-0 px-2">For further inquires:</p>
+        <i class="fas fa-phone-square-alt text-light px-2 pt-1"></i>
+        <p class="font-styling text-light m-0">+91 00000 00000</p>
+      </div>
+      <div class="mx-5">
+      <ul class="list-unstyled d-flex px-3 pt-1 text-light m-0">
+        <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+        <li><i class="fa-brands fa-instagram-square px-3"></i></li>
+        <li><i class="fa-brands fa-whatsapp-square"></i></li>
+      </ul>
+    </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="back">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5" href="#back">
+            <img src="logo.png" alt="" width="28" height="28" class="d-inline-block align-text-top">
+            Travelogged
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav font-styling">
+              <li class="nav-item mx-5">
+                <a class="nav-link text-dark" href="#">Pricing</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link text-dark" href="#">About Us</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid text-center text-light bg-img">
+        <div class="heading py-5">
+          <h1 class="pt-5">Travelogged Kedarnath 2022</h1>
+          <p class="p-4 font-styling">Visit the "SWARG" on Earth- The Mighty Kedarnath Temple this 2022.</p>
+        </div>
+        <div class="p-5">
+          <button type="button" class="btn btn-color text-light m-2 px-4" onclick="book()">Book Now</button>
+          <button type="button" class="btn btn-light m-2">Check Itinerary</button>
+        </div>
+      </div>
+      <div class="container py-5 text-center">
+        <div class="row pb-5">
+          <h1>Kedarnath Itinerary</h1>
+        </div>
+        <!-- <div class="pb-5 justify-content-start">
+          <h3 class="border border-1 border-dark rounded-circle">1</h3>
+        </div> -->
+        <div class="row row-bg-img-one box-shadow">
+          <div class="col-lg-6 py-5">
+            <img src="image1.jpg" class="img-fluid box-shadow" alt="" srcset="" width="400" height="400">
+          </div>
+          <div class="col-lg-6 pt-5 text-dark">
+            <h4 class="pt-4">Day 0 : Departure From Delhi</h4>
+            <ul class="p-5 my-4 font-styling text-justify">
+              <li>We meet at Kaushambi Metro Station in Delhi at 6PM Start out trip with full zeal and excitement.</li>
+              <li>Pit Stop in between for Dinner (not on us) at around 11 PM.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row row-bg-img-two my-5 text-dark box-shadow">
+          <div class="col-lg-6 py-5">
+            <h4 class="py-4">Day 1- Reach Gupkashi</h4>
+            <ul class="px-5 lh-sm font-styling">
+              <li>Approx 14 hours of Journey to Guptkashi, (with multiple pit-stops)</li>
+              <li>We will Reach Guptkashi by noon.</li>
+              <li>On arrival at Guptkashi check-in hotel. Rest of the day at leisure.</li>
+              <li>Overnight stay at hotel </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 py-5">
+            <img src="image2.jpg" class="img-fluid box-shadow" alt="" srcset="" width="400" height="400">
+          </div>
+        </div>
+        <div class="row row-bg-img-three text-dark box-shadow">
+          <div class="col-lg-6 py-5">
+            <img src="image3.jpg" class="img-fluid box-shadow" alt="" srcset="" width="400" height="400">
+          </div>
+          <div class="col-lg-6 py-5">
+            <h4 class="pt-5">Day 2: Sonprayag-Kedarnath</h4>
+            <ul class="p-4 font-styling">
+              <li>Early morning (5 AM) after breakfast check out from the hotel and drive to Sonprayag. From where, you will start your 20 km trek to Kedarnath.</li>
+              <li>Dinner and Overnight at hotel.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row row-bg-img-four my-5 text-dark box-shadow">
+          <div class="col-lg-6 py-5">
+            <h4 class="pt-3">Day 3 : Kedarnath- Guptkashi</h4>
+            <ul class="p-5 font-styling">
+              <li>Wake up early in the morning, freshen up and have breakfast.</li>
+              <li>Visit - Bhairav Temple and start your trek down to Gaurikund.</li>
+              <li>Drive back to Guptkashi.</li>
+              <li>Dinner, Rest and Overnight Stay.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 py-5">
+            <img src="image4.jpg" class="img-fluid box-shadow" alt="" srcset="" width="400" height="400">
+          </div>
+        </div>
+        <div class="row row-bg-img-five text-dark box-shadow">
+          <div class="col-lg-6 py-5">
+            <img src="image5.jpg" class="img-fluid box-shadow" alt="" srcset="" width="400" height="400">
+          </div>
+          <div class="col-lg-6 py-5">
+            <h4 class="pt-3">Day 4 : Return with Happy Memories | Rishikesh</h4>
+            <ul class="p-3 font-styling">
+              <li>Wake up early in the morning, freshen up and have breakfast. </li>
+              <li>Start your return Journey to Delhi.</li>
+              <li>Take a stop in mid at Rishikesh. Visit Laxman Jhula, Ram Jhula. Take Part in Evening Ganga Aarti.</li>
+              <li>After that, start your return journey to Delhi.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="text-center pt-5">
+        <h2>Inclusions</h2>
+        <p class="font-styling pb-5 text-muted">We include Everything in our plans which you might need while Travelling</p>
+      </div>
+      </div>
+      <div class="container">
+        <div class="row flex-row text-center">
+        <div class="pt-5 col-lg-3">
+          <img src="bus.png" class="img-fluid" alt="bus image" srcset="" width="140" height="140">
+          <p class="text-center pt-4 font-styling">Transportation</p>
+        </div>
+        <div class="pt-5 col-lg-3">
+          <img src="food.png" class="img-fluid" alt="bus image" srcset="" width="140" height="140">
+          <p class="text-center pt-4 font-styling">Meals</p>
+        </div>
+        <div class="pt-5 col-lg-3">
+          <img src="stay.png" class="img-fluid" alt="bus image" srcset="" width="140" height="140">
+          <p class="text-center pt-4 font-styling">Stays</p>
+        </div>
+        <div class="pt-5 col-lg-3">
+          <img src="guide.png" class="img-fluid" alt="bus image" srcset="" width="140" height="140">
+          <p class="text-center pt-4 font-styling">Tour Guide</p>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div>
+        <button type="button" class="btn btn-color text-light m-5" onclick="download()">Download Itinerary</button>
+      </div>
+      <div class="mx-5 pt-5">
+        <h2>Why Travelogged</h2>
+        <p class="pt-3 font-styling text-muted">Travelogged is new age technology driven Travel Company. We specialise in Group Departures at affordable prices.</p>
+      </div>
+    </div>
+      </div>
+      <div class="container-fluid my-5 pt-5">
+        <div class="row flex-row text-center">
+        <div class="col-lg-4">
+          <img src="likes.png" alt="" class="img-fluid" width="30" height="30">
+          <p class="font-styling pt-2">500+ REVIEWS</p>
+        </div>
+        
+        <div class="col-lg-4">
+          <img src="mini-map.png" alt="" class="img-fluid" width="30" height="30">
+          <p class="font-styling pt-2"> 120+ GROUP DEPARTURES</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="happy-face.png" alt="" class="img-fluid" width="30" height="30">
+          <p class="font-styling pt-2"> 2000 + HAPPY TRAVELLERS</p>
+        </div>
+          
+      </div>
+    </div>
+      <div class="container-fluid text-center container-bg">
+        <div class="carousel-head text-light py-5">
+          <h3>What Others have to say About Us?</h3>
+        </div>
+        <div class="pb-5">
+          <div id="carouselExampleInterval" class="carousel slide w-50 carousel-bg mx-auto" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <p class="p-4">It was indeed one of the most wonderful experiences having my first trip with travelogged.in. Kedarnath was never that easy but these Guys made sure that we enjoy every each bit of it. Their Management and facilities were good. I would highly recommend and of course I am planning to travel with them super soon.</p>
+                <p class="text-muted">@anmolhanss</p>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <p class="p-4">I visited Manali with Travelogged and God it was wonderful. It was my first solo trip with them. In this Budget, this level of service was unbeliveable. It would have happily paid double for it!! The hotels, food, coordinator knowledge and interaction with everyone made it such a smooth and fun trip. Thank You so much Travelogged.</p>
+                <p class="text-muted">@anmolhanss</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="mt-5">
+          <h2>Our Social Media</h2>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+        <div class="px-3 social-media">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </div>
+        <div class="px-3 social-media">
+          <i class="fa-brands fa-instagram-square"></i>
+        </div>
+        <div class="px-3 social-media">
+          <i class="fa-brands fa-whatsapp-square"></i>
+        </div>
+      </div>
+      </div>
+      
+<footer class="page-footer font-small pt-5 border-top mt-5">
+
+  
+  <div class="container text-center text-md-left py-5">
+
+    <div class="row">
+
+      
+      <div class="col-md-3 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+        <a href="#back">
+          <img src="logo.png" alt="" width="90" height="90">
+        </a>
+        </h5>
+<div class="footer-copyright text-muted pb-3">
+  © 2022 Travelogged
+</div>
+
+      </div>
+      
+
+      <hr class="clearfix w-100 d-md-none">
+
+    
+      <div class="col-md-3 mx-auto">
+
+       
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Company</h5>
+
+        <ul class="list-unstyled">
+          <li class="pb-2">
+            <a href="#!" class="text-decoration-none text-dark">About us</a>
+          </li>
+          <li class="pb-2">
+            <a href="#!" class="text-decoration-none text-dark">Blog</a>
+          </li>
+          <li>
+            <a href="#!" class="text-decoration-none text-dark">Testimonials</a>
+          </li>
+        </ul>
+
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-3 mx-auto">
+
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Supports</h5>
+
+        <ul class="list-unstyled">
+          <li class="pb-2">
+            <a href="#!" class="text-decoration-none text-dark">Contact us</a>
+          </li>
+          <li>
+            <a href="#!" class="text-decoration-none text-dark">Help center</a>
+          </li>
+        </ul>
+
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-3 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Follow Us</h5>
+
+        <div class="">
+            <i class="fa-brands fa-twitter social-media p-1"></i>
+         
+            <i class="fa-brands fa-youtube social-media p-1"></i>
+          <i class="fa-brands fa-linkedin social-media p-1"></i>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="f text-center py-3 border-top">
+    <a href="https://mdbootstrap.com/" class="text-decoration-none text-muted">travelogged.info@gmail.com</a>
+  </div>
+</footer>
+      <script>
+        function book(){
+          alert("Booked  Successfully")
+        }
+        function download(){
+          alert("File not found")
+        }
+      </script>
+  </body>
+</html>
